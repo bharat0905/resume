@@ -22,11 +22,11 @@ const projects = [
 
   },
   {
-    title: "Upcoming",
+    title: "Leaflet",
     cardImage: "assets/images/project-page/flappybird.png",
-    description: "Upcoming project under progress",
+    description: "ArcGIS API with Leaflet",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
+    Previewlink: "https://bharat0905.github.io/portflio/leaflet/leaflet.html",
 
   },
 ];
