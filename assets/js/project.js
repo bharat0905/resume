@@ -8,27 +8,27 @@ const projects = [
   {
     title: "Cartography",
     cardImage: "assets/images/project-page/carto.png",
-    description: "A quiz app built using basic react.",
+    description: "Collection of some maps",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://vader130012.github.io/index2/index2.html",
     Githublink: "",
   },
   {
-    title: "Leaflet",
+    title: "Black Ticks - (Leaflet)",
     cardImage: "assets/images/project-page/leaflet.png",
-    description: "Built battery life calculator using Python.",
+    description: "Black Tick spotted at public parks in toronto.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://bharat0905.github.io/portflio/leaflet/leaflet.html",
+    Previewlink: "https://bharat0905.github.io/resume/project/leaflet.html",
     Githublink: "",
   },
   {
-    title: "Alberta Farm Markets",
+    title: "Night Fligh (Mapbox)",
     cardImage: "assets/images/project-page/webapp.png",
-    description: "Built using Tensorflow.",
+    description: "Take a route along the globe with ",
     tagimg:
       "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
-    Previewlink: "https://map1py-ppefxipaxei.streamlit.app/",
+    Previewlink: "https://bharat0905.github.io/resume/project/NightFlight.html",
     Githublink: "",
   },
   // {
