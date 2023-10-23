@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Night Flight - A custom style globe </title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<style>
+#fly {
+display: block;
+position: relative;
+margin: 0px auto;
+width: 30%;
+height: 30px;
+padding: 10px;
+border: none;
+border-radius: 3px;
+font-size: 12px;
+text-align: center;
+color: #fff;
+background: #4264FB;
+}
+</style>
+	
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.0/mapbox-gl-geocoder.css" type="text/css">
+
+<div id="map"></div>
+<br>
+<button id="fly">Let's Fly</button>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYWRvdWNldHQiLCJhIjoiY2lvZDFsc2lwMDRnd3Zha2pneWpxcHh6biJ9.sbWgw2zPGyScsp-r4CYQnA';
+
+const start = {
+center: [-78.0, 42],
+zoom: 3.7,
+pitch: 11,
+bearing: 0
+};
+const end = {
+
+// FSO //  #13.33/37.61255/-122.39017/-94.8/66	
+	
+center: [-122.39017, 37.61255],
+zoom: 13.2,
+bearing: -94.8,
+pitch: 67
+};
+const map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/adoucett/cl59necov000b15pk1jirufhx',
+projection: 'globe',
+...start
+});
+ 
+map.on('style.load', () => {
+// Custom atmosphere styling
+// map.setFog({
+// 'color': 'rgb(220, 159, 159)', // Pink fog / lower atmosphere
+// 'high-color': 'rgb(36, 92, 223)', // Blue sky / upper atmosphere
+// 'horizon-blend': 0.4 // Exaggerate atmosphere (default is .1)
+// });
+ 
+map.addSource('mapbox-dem', {
+'type': 'raster-dem',
+'url': 'mapbox://mapbox.terrain-rgb'
+});
+ 
+map.setTerrain({
+'source': 'mapbox-dem',
+	// Here we will set a vertical exaggeration to emphaize the terrain 
+'exaggeration': 1.4
+});
+});
+ 
+let isAtStart = true;
+ 
+document.getElementById('fly').addEventListener('click', () => {
+// depending on whether we're currently at point a or b,
+// aim for point a or b
+const target = isAtStart ? end : start;
+isAtStart = !isAtStart;
+
+	
+	//This is the Let's Fly function demo
+map.flyTo({
+...target, // Fly to the selected target
+duration: 27000, // Animate over 12 seconds
+essential: true // This animation is considered essential with
+//respect to prefers-reduced-motion
+});
+});
+	
+const geocoder = new MapboxGeocoder({
+accessToken: mapboxgl.accessToken,
+flyTo: {
+bearing: 0,
+pitch: 65,
+// Control the flight curve, making it move slowly and
+// zoom out almost completely before starting to pan.
+speed: 0.3, // Make the flying slow.
+curve: 0.9, // Change the speed at which it zooms out.
+// This can be any easing function: it takes a number between
+// 0 and 1 and returns another number between 0 and 1.
+easing: function (t) {
+return t;
+}
+},
+mapboxgl: mapboxgl
+});
+ 
+// Adds the geocoder to the map/
+	
+map.addControl(geocoder);
+</script>
+	
+
+ 
+</body>
+</html>
