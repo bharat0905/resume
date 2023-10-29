@@ -24,22 +24,22 @@ const projects = [
   },
   {
     title: "Night Fligh (Mapbox)",
-    cardImage: "assets/images/project-page/webapp.png",
+    cardImage: "https://as1.ftcdn.net/v2/jpg/01/18/23/40/1000_F_118234098_GYS6glazxAp8EdmMiQxHUYQcHmWsa9bg.jpg",
     description: "Take a route along the globe with ",
     tagimg:
       "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
     Previewlink: "https://bharat0905.github.io/resume/project/NightFlight.html",
     Githublink: "https://github.com/bharat0905/resume/blob/main/project/NightFligh.html",
   },
-  // {
-  //   title: "Music Recommendation Engine",
-  //   cardImage: "assets/images/project-page/music.jpg",
-  //   description: "Built using Python.",
-  //   tagimg:
-  //     "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-  //   Previewlink: "",
-  //   Githublink: "",
-  // },
+  {
+    title: "React Job Board",
+    cardImage: "assets/images/project-page/webapp.png",
+    description: "Mapping new job alerts recieved on emails from different job search engine",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "https://warm-gumption-0abe19.netlify.app/",
+    Githublink: "https://github.com/bharat0905/react-app",
+  },
 ];
 
 // function for rendering project cards data
