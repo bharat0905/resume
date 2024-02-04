@@ -14,7 +14,7 @@ const exp = [
 
   {
     title: "Remote Sensing Specialist ",
-    cardImage: "assets/images/experience-page/brant.png",
+    cardImage: "assets/images/experience-page/hhlt.png",
     place: "Haliburton,On",
     time: "(Jan - June, 2022)",
     desp: "<li>Collaborated to gather extensive list of sources to acquire aerial/satellite imagery to support various projects with focus on classification of wetlands.</li><li>Orchestrated the acquisition and analysis of aerial imagery, contributing to the classification of wetlands and land use for environmental management.</li><li>Delivered cartographic services by creating visually compelling maps and web applications for habitat analysis.</li><li>Engaged in database design and administration, optimizing workflows for environmental data management.</li><li>Key responsibilities encompass cloud free imagery of the area for habitat suitability analysis.</li><li>Produced visually impactful map of Northen Bog Aster plant habitat.</li><li>Planned and initiated the conversion of text-based data to vector data, with the intention of integrating supplementary information from the database through Retrieval Augmented Generation upon querying.</li><li>HHLT can access many imagery sources, spanning back to 2000’s to gather and analyze change in habitat and many other applications.</li>",
