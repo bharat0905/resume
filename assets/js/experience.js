@@ -7,16 +7,26 @@ const exp = [
   {
     title: "GIS Application Specialist Intern",
     cardImage: "assets/images/experience-page/brant.png",
-    place: "Ontario",
-    time: "(Mar - June, 2023)",
-    desp: "<li>Designed workflow for the county to automate digitiazation process.</li><li>Limited bands on the aerial imagery capturered by the county was a major roadblock.</li><li>PyTorch and deep learning AI libarires were used in conjustion with ArcPy.</li><li>Custom ArcGIS Pro tool was developed to automate the whole process.</li><li>The tool was successfull in eliminating 70% of workload.</li>",
+    place: "Brant,On",
+    time: "(Jan - June, 2023)",
+    desp: "<li>Engineered a custom ArcGIS toolbox for aerial imagery analysis, enhancing building footprint extraction with improved accuracy and efficiency.</li><li>Managed GIS databases and performed spatial data manipulation to support county planning initiatives.</li><li>Developed and maintained server-side GIS applications, ensuring data redundancy and security.</li><li>●	Documented the process and why resampling was one important aspect for the project as the model would return different results with different cell sizes.</li><li>●	Increased accuracy to 83% with another python script to train/improve the deep learning model.</li>",
   },
+
   {
-    title: "GIS Analyst",
+    title: "Remote Sensing Specialist ",
+    cardImage: "assets/images/experience-page/brant.png",
+    place: "Haliburton,On",
+    time: "(Jan - June, 2022)",
+    desp: "<li>Collaborated to gather extensive list of sources to acquire aerial/satellite imagery to support various projects with focus on classification of wetlands.</li><li>Orchestrated the acquisition and analysis of aerial imagery, contributing to the classification of wetlands and land use for environmental management.</li><li>Delivered cartographic services by creating visually compelling maps and web applications for habitat analysis.</li><li>Engaged in database design and administration, optimizing workflows for environmental data management.</li><li>Key responsibilities encompass cloud free imagery of the area for habitat suitability analysis.</li><li>Produced visually impactful map of Northen Bog Aster plant habitat.</li><li>Planned and initiated the conversion of text-based data to vector data, with the intention of integrating supplementary information from the database through Retrieval Augmented Generation upon querying.</li><li>HHLT can access many imagery sources, spanning back to 2000’s to gather and analyze change in habitat and many other applications.</li>",
+  },
+
+  
+  {
+    title: "GIS Tecgnician",
     cardImage: "assets/images/experience-page/mmi.png",
     place: "Delhi",
-    time: "(May, 19 - may, 21)",
-    desp: "<li>Accrued relevant data from various company sources like 360 car camera, navigation unit.</li><li>Published monthly analytic reports from the data, to keep a check on project performance.</li><li>Regular vector database mainatiance and updataion</li><li>QA/QC of the new data as per requirements.</li>",
+    time: "(May, 19 - Aug, 21)",
+    desp: "<li>Managed incoming customer inquiries through phone, email, and ticketing systems, ensuring prompt and accurate responses.</li><li>Accrued relevant data from various company sources like 360 car camera, navigation unit.</li><li>Creation of the High Level and Detailed Level design documents for the application.</li><li>Published monthly analytic reports from the data, to keep a check on performance on internal dashboard.</li><li>Involved in design, development, and requirements gathering for the project for further improvements and enhancements as per business requirements.</li><li>Maintaining data integrity with SQL and SQL function to keep track of changes to the database.</li><li>Working in GIT environment while QA/QC before altering the database.</li><li>Analyzing the defects, defect fixing and assigning it to appropriate resource. Support the team to fix defects.</li><li>Developed strong customer service skills and demonstrated the ability to build rapport and trust with customers.</li><li>Demonstrated exceptional troubleshooting skills by interpreting complex problems and identifying effective solutions in a timely manner.</li><li>Cultivated close working relationships with various departments to foster a collaborative environment and ensure unified customer support efforts.</li><li>Contributed to the development of knowledge base articles and documentation to streamline support processes and improve customer self-service options.</li><li>Demonstrated the ability to prioritize tasks effectively, manage deadlines, and perform under pressure with excellent time management and organizational skills.</li><li>Performed updates, deletions, and additions to databases as part of resolving customer support tickets and maintaining system integrity.</li><li>Exhibited strong written and oral communication skills, capable of explaining complex technical concepts to non-technical stakeholders.</li><li>Proven ability to work effectively within a team environment, liaising with both technical and non-technical colleagues.</li>",
   },
 ];
 
