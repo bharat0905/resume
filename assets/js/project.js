@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: "TTC After Dark",
-    cardImage: "ahttps://i.ibb.co/wJBb9ND/ttc.png",
+    cardImage: "https://i.ibb.co/wJBb9ND/ttc.png",
     description: "TTC Network after the sun sets",
     tagimg: "https://i.ibb.co/wJBb9ND/ttc.png",
     Previewlink: "https://bharat0905.github.io/resume/project/leaflet.html",
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Night Fligh (Mapbox)",
-    cardImage: "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
+    cardImage: "https://as1.ftcdn.net/v2/jpg/01/18/23/40/1000_F_118234098_GYS6glazxAp8EdmMiQxHUYQcHmWsa9bg.jpg",
     description: "Take a route along the globe with ",
     tagimg: "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
     Previewlink: "https://bharat0905.github.io/resume/project/NightFlight.html",
