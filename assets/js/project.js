@@ -15,28 +15,25 @@ const projects = [
   },
   {
     title: "TTC After Dark",
-    cardImage: "assets/images/project-page/leaflet.png",
+    cardImage: "ahttps://i.ibb.co/wJBb9ND/ttc.png",
     description: "TTC Network after the sun sets",
-    tagimg:
-      "https://i.ibb.co/wJBb9ND/ttc.png",
+    tagimg: "https://i.ibb.co/wJBb9ND/ttc.png",
     Previewlink: "https://bharat0905.github.io/resume/project/leaflet.html",
     Githublink: "ttps://github.com/bharat0905/resume/blob/main/project/leaflet.html",
   },
   {
     title: "Night Fligh (Mapbox)",
-    cardImage: "https://as1.ftcdn.net/v2/jpg/01/18/23/40/1000_F_118234098_GYS6glazxAp8EdmMiQxHUYQcHmWsa9bg.jpg",
+    cardImage: "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
     description: "Take a route along the globe with ",
-    tagimg:
-      "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
+    tagimg: "https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png",
     Previewlink: "https://bharat0905.github.io/resume/project/NightFlight.html",
     Githublink: "https://github.com/bharat0905/resume/blob/main/project/NightFligh.html",
   },
   {
     title: "Top Peaks 3D",
-    cardImage: "assets/images/project-page/webapp.png",
+    cardImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mountain_icon_%28Noun_Project%29.svg/100px-Mountain_icon_%28Noun_Project%29.svg.png",
     description: "Visit top 10 peaks on earth under 2 min",
-    tagimg:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mountain_icon_%28Noun_Project%29.svg/100px-Mountain_icon_%28Noun_Project%29.svg.png",
+    tagimg: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mountain_icon_%28Noun_Project%29.svg/100px-Mountain_icon_%28Noun_Project%29.svg.png",
     Previewlink: "https://bharat0905.github.io/resume/project/storytelling.html",
     Githublink: "https://github.com/bharat0905/resume/blob/main/project/storytelling.html",
   },
