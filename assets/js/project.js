@@ -18,9 +18,9 @@ const projects = [
     cardImage: "assets/images/project-page/leaflet.png",
     description: "TTC Network after the sun sets",
     tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+      "https://i.ibb.co/wJBb9ND/ttc.png",
     Previewlink: "https://bharat0905.github.io/resume/project/leaflet.html",
-    Githublink: "",
+    Githublink: "ttps://github.com/bharat0905/resume/blob/main/project/leaflet.html",
   },
   {
     title: "Night Fligh (Mapbox)",
@@ -32,13 +32,13 @@ const projects = [
     Githublink: "https://github.com/bharat0905/resume/blob/main/project/NightFligh.html",
   },
   {
-    title: "React Job Board",
+    title: "Top Peaks 3D",
     cardImage: "assets/images/project-page/webapp.png",
-    description: "Mapping new job alerts recieved on emails from different job search engine",
+    description: "Visit top 10 peaks on earth under 2 min",
     tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "https://warm-gumption-0abe19.netlify.app/",
-    Githublink: "https://github.com/bharat0905/react-app",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mountain_icon_%28Noun_Project%29.svg/100px-Mountain_icon_%28Noun_Project%29.svg.png",
+    Previewlink: "https://bharat0905.github.io/resume/project/storytelling.html",
+    Githublink: "https://github.com/bharat0905/resume/blob/main/project/storytelling.html",
   },
 ];
 
